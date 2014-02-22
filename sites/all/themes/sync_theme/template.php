@@ -154,3 +154,15 @@ function bartik_field__taxonomy_term_reference($variables) {
 
   return $output;
 }
+function sync_theme(){
+	$items=array();
+	$items['user_login']=array(
+		'render element'=>'form','path'=>drupal_get_path('theme',sync_theme').'/templates',
+		'template'=>'user-login'
+	);
+	$items['user_pass']=array(
+		'render element'=>'path'=>drupal_get_path('theme','sync_theme').'/templates',
+		'template'=>'user-pass'
+	);
+	return $items
+}
