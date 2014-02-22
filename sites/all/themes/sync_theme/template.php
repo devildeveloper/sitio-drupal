@@ -31,12 +31,12 @@ function sync_theme_preprocess_page(&$variables, $hook) {
 function sync_theme(){
 	$items=array();
 	$items['user_login']=array(
-		'render element'=>'form','path'=>drupal_get_path('theme','sync_theme').'/templates',
-		'template'=>'user-login'
+		'render element'->'form','path'->drupal_get_path('theme','sync_theme').'/templates',
+		'template'->'user-login'
 	);
 	$items['user_pass']=array(
-		'render element'=>'path'=>drupal_get_path('theme','sync_theme').'/templates',
-		'template'=>'user-pass'
+		'render element'->'path'->drupal_get_path('theme','sync_theme').'/templates',
+		'template'->'user-pass'
 	);
 	return $items
 }
