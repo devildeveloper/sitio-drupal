@@ -187,7 +187,7 @@
         
     <div class="container">
       
-        <h3 class="white center"><?php echo (render($page['banner2']));?></h3>
+        <h3 class="white center"><?php echo (render($page['banner1']));?></h3>
                 <p style="text-align:center"></p>
       
     </div>
@@ -281,7 +281,7 @@
         <div class="separator2-bg"></div>
         
     <div class="container">     
-            <h3 class="white center">frase2_texto</h3>
+            <h3 class="white center"><?php echo (render($page['banner2']));?></h3>
             <p class="white" style="text-align:center"></p>     
     </div>
 
@@ -350,7 +350,7 @@
                         
                         
                         <li>
-                        <h1 class="black mb"><p>Bueno, quiero dar del servicio que ofrece Sync, me ha ayudado mucho.</p>
+                        <h1 class="black mb"><p><?php echo (render($page['banner3']));?></p>
 </h1>                
                         <h5>Williams - Solgas</h5>            
                         </li>
