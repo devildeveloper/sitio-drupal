@@ -1,9 +1,8 @@
 
 name = sync_theme
 description = Tema para sync.
-package = Core
-version = VERSION
-core = 7.26
+version = 0.1
+core = 7.x
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colorbox.css
@@ -36,7 +35,7 @@ regions[banner2] = Banner 2
 regions[portfolio] = Portfolio
 regions[banner3] = Banner 3
 regions[contact] = Contac
-
+regions[content] = Content
 
 
 features[] = logo
