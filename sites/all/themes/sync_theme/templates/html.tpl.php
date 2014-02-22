@@ -17,7 +17,7 @@
         <!-- Livestrap JS: compiled and minified -->
         <?php print $scripts; ?>
     </head>
-    <body >
+    <body onLoad="initialize()">
         <?php print $page_top; ?>
         <?php print $page; ?>
         <?php print $page_bottom; ?>
