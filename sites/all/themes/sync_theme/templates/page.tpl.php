@@ -389,17 +389,17 @@
         
             <div class="container clearfix">
                 
-                <div class="client"><a href="likedinweb"><img src="images/client1.png" alt=""/></a></div>
+                <div class="client"><a href="likedinweb"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client1.png';?>" alt=""/></a></div>
                 
-                <div class="client"><a href=""><img src="images/client2.png" alt=""/></a></div>
+                <div class="client"><a href=""><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client2.png';?>" alt=""/></a></div>
                 
-                <div class="client"><a href="http://twitter.com/Twitter web"><img src="images/client3.png" alt=""/></a></div>
+                <div class="client"><a href="http://twitter.com/Twitter web"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client3.png';?>" alt=""/></a></div>
                 
-                <div class="client"><a href="Yahoo web"><img src="images/client4.png" alt=""/></a></div>
+                <div class="client"><a href="Yahoo web"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client4.png';?>" alt=""/></a></div>
                 
-                <div class="client"><a href="http://youtube.com/"><img src="images/client5.png" alt=""/></a></div>
+                <div class="client"><a href="http://youtube.com/"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client5.png';?>" alt=""/></a></div>
                 
-                <div class="client"><a href="http://facebook.com/https://www.facebook.com/pages/Sync-MKT/459844787381562?fref=ts"><img src="images/client6.png" alt=""/></a></div>
+                <div class="client"><a href="http://facebook.com/https://www.facebook.com/pages/Sync-MKT/459844787381562?fref=ts"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client6.png';?>" alt=""/></a></div>
                 
             </div>
 
