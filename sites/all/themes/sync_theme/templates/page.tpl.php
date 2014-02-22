@@ -1,8 +1,5 @@
-
     <!-- Home Page-->
-    <div id="index">   
-    
-            
+    <div id="index">            
     <img id="cycle-loader" src="images/loading.gif" alt="" />
         
         
