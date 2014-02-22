@@ -28,15 +28,16 @@ function sync_theme_preprocess_page(&$variables, $hook) {
         $variables['url_post'] = $urlprincipal['scheme'] . '://' . $urlprincipal['subdomain'];
     }
 }
-function sync_theme(){
-	$items=array();
-	$items['user_login']=array(
-		'render element'->'form','path'->drupal_get_path('theme','sync_theme').'/templates',
-		'template'->'user-login'
-	);
-	$items['user_pass']=array(
-		'render element'->'path'->drupal_get_path('theme','sync_theme').'/templates',
-		'template'->'user-pass'
-	);
-	return $items
+function upc_pre_theme() {
+    $items = array();
+    // create custom user-login.tpl.php
+    $items['user_login'] = array(
+        'render element' => 'form', 'path' => drupal_get_path('theme', 'upc_pre') . '/templates',
+        'template' => 'user-login'
+    );
+    $items['user_pass'] = array(
+        'render element' => 'form', 'path' => drupal_get_path('theme', 'upc_pre') . '/templates',
+        'template' => 'user-pass'
+    );
+    return $items;
 }
