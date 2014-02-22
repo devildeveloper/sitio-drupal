@@ -1,12 +1,12 @@
     <!-- Home Page-->
     <div id="index">            
-    ƒ<img id="cycle-loader" src="images/loading.gif" alt="" />
+    <img id="cycle-loader" src="images/loading.gif" alt="" />
         
         
         
         <!-- Full Screen Slider-->
     <div id="maximage" class="clearfix">
-        
+        <?php print render($page['sliderTop']);?>
                 
             
             <div>
