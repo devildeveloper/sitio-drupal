@@ -1,6 +1,6 @@
     <!-- Home Page-->
     <div id="index">            
-    <img id="cycle-loader" src="images/loading.gif" alt="" />
+    ƒ<img id="cycle-loader" src="images/loading.gif" alt="" />
         
         
         
@@ -187,7 +187,7 @@
         
     <div class="container">
       
-        <h3 class="white center">SINCRONIZAR LA VIDA COTIDIANA CON EL MUNDO DIGITAL</h3>
+        <h3 class="white center"><?php echo (render($page['banner2']));?></h3>
                 <p style="text-align:center"></p>
       
     </div>
