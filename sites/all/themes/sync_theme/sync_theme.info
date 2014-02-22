@@ -1,0 +1,57 @@
+
+name = sync_theme
+description = Tema para sync.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colorbox.css
+stylesheets[print][] = css/flexslider.css
+
+
+
+scripts[] = js/query.carouFredSel-6.1.0-packed.js
+scripts[] = js/jquery.touchSwipe.min.js
+scripts[] = js/main.js
+scripts[] = js/jquery.sticky.js
+scripts[] = js/jquery.parallax-1.1.3.js
+scripts[] = js/jquery.localscroll-1.2.7-min.js
+scripts[] = js/jquery.scrollTo-1.4.2-min.js
+scripts[] = js/jquery.cycle.all.js
+scripts[] = js/jquery.maximage.js
+scripts[] = js/jquery.colorbox.js
+scripts[] = js/jisotope.js
+scripts[] = js/jquery.flexslider.js
+scripts[] = js/jquery.jigowatt.js
+
+
+regions[sliderTop] = Slider Top
+regions[header] = Header
+regions[about] = About
+regions[team] = Team
+regions[banner1] = Banner 1
+regions[services] = Services
+regions[banner2] = Banner 2
+regions[portfolio] = Portfolio
+regions[banner3] = Banner 3
+regions[contact] = Contac
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2014-01-15
+version = "7.26"
+project = "drupal"
+datestamp = "1389815930"
+
