@@ -99,7 +99,7 @@ function upc_preprocess_page(&$variables, $hook) {
 function sync_theme(){
 	$items=array();
 	$items['user_login']=array(
-		'render element'=>'form','path'=>drupal_get_path('theme',sync_theme').'/templates',
+		'render element'=>'form','path'=>drupal_get_path('theme','sync_theme').'/templates',
 		'template'=>'user-login'
 	);
 	$items['user_pass']=array(
@@ -108,3 +108,4 @@ function sync_theme(){
 	);
 	return $items
 }
+?>
