@@ -6,7 +6,7 @@
         
         <!-- Full Screen Slider-->
     <div id="maximage" class="clearfix">
-        <?php print render($page['sliderTop']);?>
+	<?php print render($page['sliderTop']);?>      
                 
             
             <div>

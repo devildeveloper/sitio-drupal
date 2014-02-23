@@ -23,7 +23,7 @@ function sync_theme_preprocess_page(&$variables, $hook) {
         $variables['theme_hook_suggestions'][] = 'page__user_login';
     } else{
         $variables['theme_hook_suggestions'][] = 'page__404';
-         $variables['imagen'] = base_path() . drupal_get_path('theme', 'upc') . "/img/covers/404.jpg";
+         $variables['imagen'] = base_path() . drupal_get_path('theme', 'sync_theme') . "/img/covers/404.jpg";
         $urlprincipal = domain_default();
         $variables['url_post'] = $urlprincipal['scheme'] . '://' . $urlprincipal['subdomain'];
     }
