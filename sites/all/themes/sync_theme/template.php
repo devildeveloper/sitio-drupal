@@ -10,7 +10,8 @@ function sync_theme_preprocess_page(&$variables, $hook) {
         // $titlepost = field_get_items('node', $variables['node'], 'field_secpre_title_post');
         // $descripcion = field_get_items('node', $variables['node'], 'field_secpre_desc_princ');
         // $imagen = field_get_items('node', $variables['node'], 'field_secpre_img_princ');
-        $block = views_embed_view('equipo', 'block_1', $variables['node']->nid);
+        $equipo = views_embed_view('equipo', 'block_1', $variables['node']->nid);
+        $servicios = views_embed_view('services', 'block_1', $variables['node']->nid);
         // if (isset($imagen[0]['uri'])) {
         //     $imagen = image_style_url('img_portada_blog', $imagen[0]['uri']);
         // } else {
@@ -21,7 +22,8 @@ function sync_theme_preprocess_page(&$variables, $hook) {
         // $variables['descripcion'] = $descripcion[0]['value'];
         // $variables['urlpost'] = $urlpost[0]['url'];
         // $variables['imagen'] = $imagen;
-        $variables['bloquedest'] = $block;
+        $variables['equipo'] = $equipo;
+        $variables['servicios'] = $servicios;
     }
 }
 

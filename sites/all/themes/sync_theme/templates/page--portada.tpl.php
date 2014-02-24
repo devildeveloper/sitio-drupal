@@ -83,7 +83,7 @@
 
     <h1 class="color mb">Equipo</h1>
     <br><br>
-    <?php print $bloquedest; ?>
+    <?php print $equipo; ?>
     </div>
         <!--/Container-->
 
@@ -131,41 +131,8 @@
             
             <p class="big-paragraph"><p>Especialistas en desarrollo y comunicaci&oacute;n digital.&nbsp;</p>
 .</p>
-            <br><br><br><br>
-           
-             <div class="two_fourth">             <div class="heading-and-icon"><img width="60" height="60" src="servicios_imagenes/icon-32227.jpg"  alt=""><h3 class="black mb">Diseño Gráfico</h3></div>
-                <p><p>Todo proyecto o&nbsp;empresa debe tener una identidad gr&aacute;fica, un ADN que ser&aacute; un factor importante para diferenciarte del resto y, a su vez, te acerque m&aacute;s a&uacute;n al p&uacute;blico que tanto anhelas llegar.&nbsp;</p>
-.</p>
-                <!--<a class="btn-small" href="#">View Details</a>-->
-                <br><br><br><br>
-            </div>
-            
-            
-            
-            <div class="two_fourth last">             <div class="heading-and-icon"><img width="60" height="60" src="servicios_imagenes/icon-30373.jpg"  alt=""><h3 class="black mb">Desarrollo Web</h3></div>
-                <p><p>Tu mejor carta de presentaci&oacute;n es una p&aacute;gina web bien desarrollada, en la cual el mundo pueda ver lo que haces y ofreces. Asimismo, es una ventana de oportunidades para expandir de manera ordenada ese negocio que buscas hacer crecer hace mucho, mediante sistemas e-commerce sincronizadas con diversos medios de pago.&nbsp;</p>
-.</p>
-                <!--<a class="btn-small" href="#">View Details</a>-->
-                <br><br><br><br>
-            </div>
-            
-            
-            
-            <div class="two_fourth last">             <div class="heading-and-icon"><img width="60" height="60" src="servicios_imagenes/icon-32219.jpg"  alt=""><h3 class="black mb">Aplicaciones Móviles</h3></div>
-                <p><p>En una cultura testigo de un crecimiento exponencial del uso de smartphones, es indiscutible decir que la ventana de oportunidades para llegar a tu p&uacute;blico es enorme, ya que est&aacute;s literalemente en la palma de sus manos. El desarrollar una aplicaci&oacute;n que sea &uacute;til y f&aacute;cil de usar, no solo te pone en ventaja con la competencia, sino que tambi&eacute;n brinda una percepci&oacute;n de marca y aceptaci&oacute;n del mercado notablemente favorable.</p>
-.</p>
-                <!--<a class="btn-small" href="#">View Details</a>-->
-                <br><br><br><br>
-            </div>
-            
-            
-            
-            <div class="two_fourth last">             <div class="heading-and-icon"><img width="60" height="60" src="servicios_imagenes/icon-32023.jpg"  alt=""><h3 class="black mb">Desarrollo de Software</h3></div>
-                <p><p>Integrar tus procesos de manera sincronizada con las experiencias de tus consumidores es uno de los objetivos principales para la toma de decisiones y el crecimiento sostenible de tu empresa. Es por esto que nosotros brindamos asesor&iacute;as TI, desarrollo y constante mantenimiento de software&nbsp;desde la concepci&oacute;n, an&aacute;lisis, dise&ntilde;o y construcci&oacute;n hasta el soporte y mejora continua.&nbsp;</p>
-.</p>
-                <!--<a class="btn-small" href="#">View Details</a>-->
-                <br><br><br><br>
-            </div>
+            <br><br><br><br>      
+            <?php print $servicios ; ?>
             
             
             
