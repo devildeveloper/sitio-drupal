@@ -10,7 +10,7 @@ stylesheets[print][] = css/flexslider.css
 
 
 
-scripts[] = js/query.carouFredSel-6.1.0-packed.js
+scripts[] = js/jquery.carouFredSel-6.1.0-packed.js
 scripts[] = js/jquery.touchSwipe.min.js
 scripts[] = js/main.js
 scripts[] = js/jquery.sticky.js
@@ -20,11 +20,12 @@ scripts[] = js/jquery.scrollTo-1.4.2-min.js
 scripts[] = js/jquery.cycle.all.js
 scripts[] = js/jquery.maximage.js
 scripts[] = js/jquery.colorbox.js
-scripts[] = js/jisotope.js
+scripts[] = js/isotope.js
 scripts[] = js/jquery.flexslider.js
 scripts[] = js/jquery.jigowatt.js
 
 
+regions[admin] = Administrador
 regions[sliderTop] = Slider Top
 regions[header] = Header
 regions[about] = About
@@ -36,6 +37,8 @@ regions[portfolio] = Portfolio
 regions[banner3] = Banner 3
 regions[contact] = Contac
 regions[content] = Content
+regions[footer] = Footer
+regions[bottom] = Bottom
 
 
 features[] = logo

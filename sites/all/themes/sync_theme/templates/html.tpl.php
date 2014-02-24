@@ -13,9 +13,12 @@
         <?php print $styles; ?>
         <!-- jQuery via Google + local fallback, see h5bp.com -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="<?php drupal_get_path('theme', 'upc_blog_theme') ?>js/jquery-1.7.2.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="<?php drupal_get_path('theme', 'sync_theme') ?>js/jquery.js"><\/script>')</script>
         <!-- Livestrap JS: compiled and minified -->
         <?php print $scripts; ?>
+        <!-- Google map -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>    
+        <!--/Google map -->        
     </head>
     <body onLoad="initialize()">
         <?php print $page_top; ?>

@@ -1,56 +1,26 @@
-    <!-- Home Page-->
-    <div id="index">            
-    <img id="cycle-loader" src="images/loading.gif" alt="" />
-        
-        
-        
-        <!-- Full Screen Slider-->
-    <div id="maximage" class="clearfix">
-	<?php print render($page['sliderTop']);?>      
-                
-            
-            <div>
-        <img src="sliders_home/fap.jpg" alt=""  />
+<!-- Home Page-->
+<div id="index">            
+  <img id="cycle-loader" src="images/loading.gif" alt="" />       
+  <!-- Full Screen Slider-->
+  <div id="maximage" class="clearfix">  
+    <div>
+      <img src="sliders_home/fap.jpg" alt=""  />
         <div class="pattern"></div>
-        <div class="in-slide-content" style="display:none;">
+          <div class="in-slide-content" style="display:none;">
           <h1>Slider 1</h1>
           <p><p>Este es el Slider del Home numero 1 :)</p>
-</p>
-        </div>
-      </div>
-            
-                  
-      
-      
-    </div>
-        <!--/Full Screen Slider-->
-        
-
+          </p>
+          </div>
+    </div>     
   </div>
+  <!--/Full Screen Slider-->
+</div>
     <!--/Home Page-->
   <!-- Navigation-->
-  <nav id="navigation">
-    
-      <a href="index.php" class="logo"></a>
-    
-    <ul id="menu">
-      <li class="current">
-        <a href="#index">Inicio</a>
-      </li>
-      <li>
-        <a href="#nosotros">Nosotros</a>
-      </li>
-      <li>
-        <a href="#ourservices">Nuestros Servicios</a>
-      </li>
-      <li>
-        <a href="#portfolio">Portafolio</a>
-      </li>
-      <li>
-        <a href="#contact">Contactanos</a>
-      </li>
-    </ul>
-  </nav>
+<nav id="navigation">    
+  <a href="<?php print $front_page ;?>" class="logo"></a>
+    <?php echo (render($page['header']));?>
+</nav>
     <!--/Navigation-->
   <!-- About Us-->
   <div id="nosotros">
@@ -112,64 +82,8 @@
     <div class="container clearfix">
 
     <h1 class="color mb">Equipo</h1>
-            
-            
-            <br><br>
-            
-            
-            <!--Team 1-->
-                        
-            
-            
-            <div class="team">
-            
-              <img class="user" src="fotos_equipo/970161-10151814571687808-823919953-n.jpg" width="225" height="260" alt="">
-              
-                <div class="team-overlay">
-                
-                  <h5 class="black">Jorge Andrés Ríos</h5>
-                    <p class="team-function">Director</p>
-                    
-                    <p class="team-description"><p>blahblah</p>
-.</p>
-                    
-                    <div class="team-social"><a href="http://facebook.com/jorgeandres.tortu" target="_blank"><img src="images/icon_facebook.png" alt=""></a></div>
-                    <div class="team-social"><a href="http://twitter.com/" target="_blank"><img src="images/icon_twitter.png" alt=""></a></div>
-                    <div class="team-social"><a href="103934120172718605388/posts" target="_blank"><img src="images/icon_google.png" alt=""></a></div>
-                    <div class="team-social"><a href="profile/view?id=184924287&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="images/icon_linkedin.png" alt=""></a></div>
-                
-                </div>
-            
-            </div>
-            
-                        
-            
-            
-            <div class="team">
-            
-              <img class="user" src="fotos_equipo/aaron1324345.jpg" width="225" height="260" alt="">
-              
-                <div class="team-overlay">
-                
-                  <h5 class="black">Aaron Hosoya</h5>
-                    <p class="team-function">Director de Arte</p>
-                    
-                    <p class="team-description">.</p>
-                    
-                    <div class="team-social"><a href="http://facebook.com/aaron.hosoya?fref=ts" target="_blank"><img src="images/icon_facebook.png" alt=""></a></div>
-                    <div class="team-social"><a href="http://twitter.com/" target="_blank"><img src="images/icon_twitter.png" alt=""></a></div>
-                    <div class="team-social"><a href="googleplus.com" target="_blank"><img src="images/icon_google.png" alt=""></a></div>
-                    <div class="team-social"><a href="likedinweb" target="_blank"><img src="images/icon_linkedin.png" alt=""></a></div>
-                
-                </div>
-            
-            </div>
-            
-                      <!--/Team 1-->
-            
-        
-          <!--/Team 4-->  
-
+    <br><br>
+    <?php print (render($page['team'])); ?>
     </div>
         <!--/Container-->
 
@@ -187,7 +101,16 @@
         
     <div class="container">
       
-        <h3 class="white center"><?php echo (render($page['banner1']));?></h3>
+        <h3 class="white center">
+        <?php echo (render($page['banner1']));?>
+         <a id="main-content"></a>
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['help']); ?>
+        <?php if ($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        </h3>
                 <p style="text-align:center"></p>
       
     </div>
@@ -536,6 +459,9 @@
   </div>
     <!--/Footer-->
 
-
+<footer> 
+    <?php print render($page['footer']); ?>
+</footer>
+<?php print render($page['bottom']); ?>
 
   
