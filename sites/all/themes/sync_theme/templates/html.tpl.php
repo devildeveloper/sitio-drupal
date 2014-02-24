@@ -25,8 +25,10 @@
         <?php print $page; ?>
         <?php print $page_bottom; ?>
         <!-- ==============================================
-                     JavaScript below! 															-->
-
-
+                     JavaScript below! 				-->       
+        <?php print $scripts; ?>
+        <!-- Google map -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>    
+        <!--/Google map -->   
     </body>
 </html>
