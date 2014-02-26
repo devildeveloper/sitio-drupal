@@ -23,18 +23,14 @@
 </nav>
     <!--/Navigation-->
   <!-- About Us-->
-  <div id="nosotros">
-        <!-- Container-->
-    <div class="container clearfix">
-
-      <h1 class="color mb">Quienes Somos</h1>
-            
-            <p class="big-paragraph"><p>Somos un equipo que trabaja convencido en la sincronizaci&oacute;n de la vida cotidiana con el mundo digital. Trabajamos constantemente en la innovaci&oacute;n de sistemas que permitan a los usuarios y a las empresas estar cada vez m&aacute;s conectadas en base a experiencias memorables generadas a trav&eacute;s a de plataformas digitales.</p>
-</p>
-            
-            
-            <br><br><br>
-            
+<div id="nosotros">
+  <!-- Container-->
+  <div class="container clearfix">
+    <h1 class="color mb">Quienes Somos</h1>        
+    <p class="big-paragraph">
+      <p>Somos un equipo que trabaja convencido en la sincronizaci&oacute;n de la vida cotidiana con el mundo digital. Trabajamos constantemente en la innovaci&oacute;n de sistemas que permitan a los usuarios y a las empresas estar cada vez m&aacute;s conectadas en base a experiencias memorables generadas a trav&eacute;s a de plataformas digitales.</p>
+    </p>
+    <br><br><br>           
             
             <div class="one_third">
             
@@ -83,7 +79,7 @@
 
     <h1 class="color mb">Equipo</h1>
     <br><br>
-    <?php print $equipo; ?>
+    <?php print render($page['team']); ?>
     </div>
         <!--/Container-->
 
@@ -103,14 +99,15 @@
       
         <h3 class="white center">
         <?php echo (render($page['banner1']));?>
-         <a id="main-content"></a>
+        
+        </h3>
+                     <a id="main-content"></a>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
         <?php print render($page['help']); ?>
         <?php if ($action_links): ?>
             <ul class="action-links"><?php print render($action_links); ?></ul>
         <?php endif; ?>
-        </h3>
                 <p style="text-align:center"></p>
       
     </div>
@@ -132,7 +129,7 @@
             <p class="big-paragraph"><p>Especialistas en desarrollo y comunicaci&oacute;n digital.&nbsp;</p>
 .</p>
             <br><br><br><br>      
-            <?php print $servicios ; ?>
+            <?php print render($page['services']) ; ?>
             
             
             
