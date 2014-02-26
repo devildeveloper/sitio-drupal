@@ -2,16 +2,7 @@
 <div id="index">            
   <img id="cycle-loader" src="images/loading.gif" alt="" />       
   <!-- Full Screen Slider-->
-  <div id="maximage" class="clearfix">  
-    <div>
-      <img src="sliders_home/fap.jpg" alt=""  />
-        <div class="pattern"></div>
-          <div class="in-slide-content" style="display:none;">
-          <h1>Slider 1</h1>
-          <p><p>Este es el Slider del Home numero 1 :)</p>
-          </p>
-          </div>
-    </div>     
+  <?php print render($page['sliderTop']); ?>    
   </div>
   <!--/Full Screen Slider-->
 </div>
@@ -374,7 +365,7 @@
         
           <!-- Container-->
             <div class="container clearfix">
-            
+                <form action="mailto:devx.cry@gmail.com" method="POST">
                 <h2 class="black mb">Envianos un Mensaje</h2>
                 
                 <div id="message"></div>
@@ -398,7 +389,7 @@
                   <input type="submit" class="send_message" id="contactar" value="Enviar" />
                     
               </form></div>
-                
+                </form>
             </div>
             <!--/Container-->
         </div>
