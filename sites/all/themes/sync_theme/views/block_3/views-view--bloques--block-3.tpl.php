@@ -1,20 +1,22 @@
-<div id="testimonials">            
+ <!-- Testimonials-->
+<div id="testimonials">
     <!-- Container-->
     <div class="container clearfix">
         <!-- Testimonials Carousel-->
-        <div class="carousel_testimonials">          
+        <div class="carousel_testimonials">
             <!-- Testimonials List-->
-            <ul id="testimonials-carousel">
-                 <?php print $rows ;?>       
-            </ul>
+            <div class="caroufredsel_wrapper">
+                <ul id="testimonials-carousel">
+                     <?php print $rows ;?>       
+                </ul>
+            </div>
             <!--/Testimonials List-->
             <!-- Testimonials Pagination-->
             <a id="prev" class="t-prev" href="#"></a>
             <a id="next" class="t-next" href="#"></a>
-             <!--/Testimonials Pagination-->     
         </div>
-            <!--/Testimonials Carousel-->
+             <!--/Testimonials Pagination-->     
     </div>
-    <!--/Container-->   
+            <!--/Testimonials Carousel-->  
 </div>
-<!--/Testimonials-->  
+<!--/Testimonials-->          
