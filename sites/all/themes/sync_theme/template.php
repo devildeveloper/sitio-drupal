@@ -25,8 +25,7 @@ function sync_theme_menu_tree__menu_menu_home($variables) {
 }
 
 function sync_theme_menu_link__menu_menu_home(array $variables) {
-    $element = $variables['element'];
-    print_r($element); 
+    $element = $variables['element'];           
     $url = url($element['#href']);
     $active = '';
     $acturl = "/";

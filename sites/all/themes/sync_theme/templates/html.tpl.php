@@ -25,7 +25,10 @@
         <?php print $page; ?>
         <?php print $page_bottom; ?>
         <!-- ==============================================
-                     JavaScript below! 				-->       
+                     JavaScript below! 				--> 
+        <script>
+            var googlemarker = "<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/marker.png';?>"
+        </script>      
         <?php print $scripts; ?>
         <!-- Google map -->
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>    

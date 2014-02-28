@@ -180,8 +180,8 @@ function initialize() {
                 content: contentString
             });
             
-            var companyImage = new google.maps.MarkerImage('images/marker.png',
-                new google.maps.Size(58,63),<!-- Width and height of the marker -->
+            var companyImage = new google.maps.Marker(
+                
                 new google.maps.Point(0,0),
                 new google.maps.Point(35,20)<!-- Position of the marker -->
             );
