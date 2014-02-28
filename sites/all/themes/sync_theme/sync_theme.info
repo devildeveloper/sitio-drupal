@@ -9,7 +9,7 @@ stylesheets[all][] = css/colorbox.css
 stylesheets[print][] = css/flexslider.css
 
 
-
+scripts[] = js/jquery-min.js
 scripts[] = js/jquery.carouFredSel-6.1.0-packed.js
 scripts[] = js/jquery.touchSwipe.min.js
 scripts[] = js/main.js

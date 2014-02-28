@@ -1,5 +1,5 @@
 <?php $url=explode(',',$fields['field_catgoria']->content) ;?>
-<li class="view <?php foreach ($url as $cat ){print $cat.' '}?> isotope-item">
+<li class="view <?php foreach ($url as $cat ){ print $cat.' '; }?> isotope-item">
     <div class="view">
         <a class="group1 cboxElement" href="project.html" title="Portfolio">
         	<img src="images/portfolio/1_thumb.jpg" alt="">			

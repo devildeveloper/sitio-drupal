@@ -1,3 +1,3 @@
-<div id="maximage" class="clearfix mc-cycle" style="width: 1286px; height: 140px; display: block;">
+<div id="maximage" class="clearfix">
 	<?php print $rows ;?>
 </div>

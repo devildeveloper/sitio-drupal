@@ -8,7 +8,6 @@ function sync_theme_preprocess_page(&$variables, $hook) {
     if (isset($variables['node']->type) && $variables['node']->type == "portada") {
         $variables['theme_hook_suggestions'][] = 'page__portada';
     }
-    var_dump($variables['node']);
 }
 
 function sync_theme() {
@@ -27,6 +26,7 @@ function sync_theme_menu_tree__menu_menu_home($variables) {
 
 function sync_theme_menu_link__menu_menu_home(array $variables) {
     $element = $variables['element'];
+    print_r($element); 
     $url = url($element['#href']);
     $active = '';
     $acturl = "/";

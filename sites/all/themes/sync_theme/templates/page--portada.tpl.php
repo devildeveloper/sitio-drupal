@@ -1,6 +1,6 @@
 <!-- Home Page-->
 <div id="index">            
-  <img id="cycle-loader" src="images/loading.gif" alt="" />       
+  <img id="cycle-loader" src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/loading.gif';?>" alt="" />       
   <!-- Full Screen Slider-->
   <?php print render($page['sliderTop']); ?>    
   </div>
@@ -8,10 +8,14 @@
 </div>
     <!--/Home Page-->
   <!-- Navigation-->
-<nav id="navigation">    
-  <a href="<?php print $front_page ;?>" class="logo"></a>
-    <?php echo (render($page['header']));?>
-</nav>
+<div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 100px;"><nav id="navigation">
+    <h2 id="logo">Eleven<span class="color dot"><strong>.</strong></span></h2>
+    <nav id="navigation">    
+        <?php echo (render($page['header']));?>
+
+    </nav>
+</div>
+
     <!--/Navigation-->
   <!-- About Us-->
 <div id="nosotros">
