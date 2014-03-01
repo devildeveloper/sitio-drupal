@@ -16,29 +16,7 @@
 <!-- About Us-->
 <div id="aboutus">      
     <!-- Container-->
-    <div class="container clearfix">
-        <h1 class="black mb">About Us</h1>    
-        <p class="big-paragraph">Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat a telus.</p>              
-        <br><br><br>           
-        <div class="one_third">
-            <h3 class="black mb">Our skills</h3>                          
-            <div class="meter">
-                <div style="width:75%"><p class="white">Web Design ( 75% )</p></div>
-            </div>
-            <div class="meter">
-                <div style="width:60%"><p class="white">Web Development ( 60% )</p></div>
-            </div>
-            <div class="meter">
-                    <div style="width:85%"><p class="white">Brand Identity ( 85% )</p></div>
-            </div>
-        </div>
-        <div class="two_third last">
-            <h3 class="black mb">Who we are</h3> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi. In a elit sed velit placerat interdum a quis erat. Sed eget nibh quis turpis venenatis eleifend non eu augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus.<br><br>
-            Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi. In a elit sed velit placerat interdum a quis erat. Sed eget nibh quis turpis venenatis eleifend non eu augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet</p> 
-                
-        </div>  
-    </div>
+    <?php print render($page['about']); ?>
     <!--/Container-->
     <!-- Our Team-->
     <div class="ourteam">
