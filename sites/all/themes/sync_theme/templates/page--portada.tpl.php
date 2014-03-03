@@ -1,4 +1,3 @@
-  
 <!-- Home Page-->
 <div id="index">    
     <a href="" id="arrow_left"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/arrow_left.png' ;?>" alt="Slide Left" /></a>
@@ -65,61 +64,20 @@
         <div class="container clearfix">
             <h1 class="white left">Portfolio</h1>
             <!-- Filters-->
-            <div id="filters">
-                <nav class="primary">
-                    <ul>
-                    <li><a href="" class="selected" data-filter="*">All Projects</a></li>
-                    <li><a href="" data-filter=".cat1">Web Design</a></li>
-                    <li><a href="" data-filter=".cat2">Photography</a></li>
-                    <li><a href="" data-filter=".cat3">Branding</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <?php print render($page['portfolio_terms']);?>
             <!--/Filters-->
         </div>
         <!--/Container-->
     </div>
     <!--/Portfolio Filters-->  
     <!-- Portfolio List-->
-    <ul class="portfolio">
-        <li class="view cat3 cat1">
-            <div class="view">
-                <a class="group1" href="project.html" title="Portfolio"><img src="images/portfolio/1_thumb.jpg" alt="" />           
-                    <div class="mask">                    
-                        <h5>Nullam dictum felis eu mollis</h5>
-                        <p>wedding / portrait</p>
-                    </div>
-                </a>
-            </div>   
-        </li>
-    </ul>
+    <?php print render($page['portfolio']) ;?>
     <!--/Portfolio List-->
     <!-- Testimonials-->
-    <div id="testimonials">
-        <!-- Container-->
-        <div class="container clearfix">
-            <!-- Testimonials Carousel-->
-            <div class="carousel_testimonials">
-                <!-- Testimonials List-->
-                <ul id="testimonials-carousel">
-                    <li>
-                        <h1 class="black mb">Lorem ipsum dolor sit amet consectetur adipiscing aliquam</h1>                
-                        <h5>John Taylor - Company</h5>            
-                    </li>                        
-                </ul>
-                <!--/Testimonials List-->
-                <!-- Testimonials Pagination-->
-                <a id="prev" class="t-prev" href="#"></a>
-                <a id="next" class="t-next" href="#"></a>
-                <!--/Testimonials Pagination-->    
-            </div>
-        <!--/Testimonials Carousel-->
-        </div>
-        <!--/Container-->
-    </div>
     <!--/Testimonials-->    
 </div>
 <!--/Portfolio-->
+<?php print render($page['banner3']);?>
 <!-- Separator3-->
 <div id="separator3">
     <div class="pattern"></div>
@@ -147,67 +105,9 @@
 </div>
 <!--/Separator3-->
 <!-- News-->
-<div id="news">
-    <!-- Container-->
-    <div class="container-news">
-        <h1>Stay tuned. Read our news</h1>
-        <!-- News Carousel-->
-        <div class="list_carousel">
-            <!-- News List-->
-            <ul id="news-carousel"> 
-                <li>
-                    <div class="news">
-                    <img src="images/news1.jpg"  alt=""  />         
-                    <div class="mask">                    
-                    <a class="group1 icon zoom" href="news.html" title="News"></a>
-                    </div>
-                    </div>
-                    
-                    <div class="news-intro">
-                    <a class="group1" href="news.html" title="News"><h5>Marketplace License Update</h5></a>
-                    <p class="news-date">09/10/2013</p> 
-                    <p>FlexSlider hosts many features, and there's a chance you'll find yourself needing to read up on a few of them. Below is aowed by detailed information and tips regarding each property.</p>
-                    <a class="btn-small group1" href="news.html" title="News">View Details</a>
-                    </div>
-                </li>  
-            </ul>
-            <!--/News List-->
-            <!-- News Navigation-->
-            <div id="news-navigation">              
-                <a id="prev2" class="prev" href="#"></a>
-                <a id="next2" class="next" href="#"></a>
-            </div>
-            <!-- News Navigation-->               
-        </div>
-        <!--/News Carousel-->
-    </div>
-    <!--/Container-->
-    <!-- Twitter-->
-    <div class="twitter">
-    
-        <div class="container">
-        
-        <div class="twitter-image"><img src="images/twitter.png" alt=""></div>
-        
-        <h2>"Lorem ipsum dolor sit amet consectetur adipiscing aliquam est lectus mattis in sodales congue"</h2>
-        
-        <p class="white">@Eleven - November 13th, 2013</p>
-            
-        </div>
-    
-    </div>
-    <!--/Twitter-->
-</div>
-<!--/News--> 
-<!--/Separator4-->
-<div id="separator4">
 
-    <div class="pattern"></div>
-    
-    <div class="separator4-bg"></div>
-    
-</div>
-<!--/Separator4-->
+<!--/News--> 
+
 <!-- Contact-->
 <div id="contact">
     <!-- Contact Header-->

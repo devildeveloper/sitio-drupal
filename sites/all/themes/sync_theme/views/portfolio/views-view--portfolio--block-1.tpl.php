@@ -1,3 +1,3 @@
-<ul class="portfolio isotope" >
+<ul class="portfolio" >
 	<?php print $rows ;?>			
 </ul>

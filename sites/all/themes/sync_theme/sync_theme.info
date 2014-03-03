@@ -8,7 +8,7 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colorbox.css
 stylesheets[print][] = css/flexslider.css
 
-
+scripts[] = js/jquery.full.js
 scripts[] = js/jquery.carouFredSel-6.1.0-packed.js
 scripts[] = js/jquery.touchSwipe.min.js
 scripts[] = js/main.js
@@ -38,8 +38,11 @@ regions[contact] = Contac
 regions[content] = Content
 regions[footer] = Footer
 regions[bottom] = Bottom
+regions[portfolio_terms] = Terminos del Portfolio
 
-
+regions['highlighted'] =Highlighted
+regions['sidebar_first'] = Sidebar First
+regions['sidebar_second'] = Sidebar Second
 features[] = logo
 features[] = name
 features[] = slogan

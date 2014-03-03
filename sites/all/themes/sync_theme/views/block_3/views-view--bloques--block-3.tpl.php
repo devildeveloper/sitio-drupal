@@ -11,9 +11,6 @@
                 </ul>
             </div>
             <!--/Testimonials List-->
-            <!-- Testimonials Pagination-->
-            <a id="prev" class="t-prev" href="#"></a>
-            <a id="next" class="t-next" href="#"></a>
         </div>
              <!--/Testimonials Pagination-->     
     </div>
