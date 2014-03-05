@@ -13,7 +13,14 @@
 </nav>
 <!--/Navigation-->
 <!-- About Us-->
-<div id="aboutus">      
+<div id="aboutus">    
+    <a id="main-content"></a>
+    <?php print $messages; ?>
+    <?php print render($tabs); ?>
+    <?php print render($page['help']); ?>
+    <?php if ($action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+    <?php endif; ?>  
     <!-- Container-->
     <?php print render($page['about']); ?>
     <!--/Container-->
