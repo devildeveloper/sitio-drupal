@@ -25,13 +25,11 @@ function sync_theme_menu_tree__menu_menu_home($variables) {
 }
 
 function sync_theme_menu_link__menu_menu_home(array $variables) {
-    $element = $variables['element'];           
-    $url = url($element['#href']);
+    $element = $variables['element'];         
+    $url = explode('#',$element['#href'])[1];
     $active = '';
-    $acturl = "/";
     if($element['#title'] == "INICIO"){
         $active = 'class="current"';
-
     }
-    return '<li '.$active.'><a href="' . $url . '">' . $element['#title'] . '</a></li>';  
+    return '<li '.$active.'><a href="#' . $url . '">' . $element['#title'] . '</a></li>';  
 }
