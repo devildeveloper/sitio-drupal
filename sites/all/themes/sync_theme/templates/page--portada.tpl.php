@@ -8,7 +8,7 @@
 <!--/Home Page-->
 <!-- Navigation-->
 <nav id="navigation">
-    <h2 id="logo"><img width="50" src="<?php print $logo ;?>" alt=""> </h2>
+    <h2 id="logo"><img width="330" src="<?php print $logo ;?>" alt=""> </h2>
     <?php echo (render($page['header']));?>
 </nav>
 <!--/Navigation-->
