@@ -160,7 +160,8 @@
         <div class="container clearfix">
             <h2 class="black mb">Send us a message</h2>
             <div id="message"></div>
-            <form method="post" action="contact.php" name="contactform" id="contactform">
+            <form method="post" action="http://forms.melodysoft.com" name="contactform" id="contactform">
+                <input type="hidden" name="id" value="sync_contact">
                 <div class="one_half">
                     <input required name="name" type="text" id="name" size="30"  placeholder="Name" >
                     <input required name="email" type="text" id="email" size="30" placeholder="E-Mail" >
