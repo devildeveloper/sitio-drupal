@@ -2,7 +2,8 @@
     <div class="flexslider clearfix">
         <ul class="slides">
             <li>
-                <img src="<?php print '/sites/default/files/'.$node->field_imagen['und'][0]['filename'] ;?>" />
+                <?php $imagen = image_style_url('portfolio-full', '/sites/default/files/'.$node->field_imagen['und'][0]['filename']); ?>
+                <img src="<?php print  $imagen;?>" />
             </li>  
         </ul> 
     </div> 
