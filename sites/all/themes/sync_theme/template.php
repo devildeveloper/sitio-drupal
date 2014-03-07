@@ -7,9 +7,16 @@ function sync_theme_preprocess_page(&$variables, $hook) {
 
     if (isset($variables['node']->type) && $variables['node']->type == "portada") {
         $variables['theme_hook_suggestions'][] = 'page__portada';
-    } 
+    }
 }  
+function sync_theme_preprocess_html(&$vars) {
+  $node = menu_get_object();
 
+  if ($node && $node->type=='portafolio') {
+    $vars['theme_hook_suggestions'][] = 'page__portfolio';
+    $vars['node']=$node;
+  }
+}
 function sync_theme() {
     $items = array();
     // create custom user-login.tpl.php

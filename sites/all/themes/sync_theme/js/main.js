@@ -297,7 +297,6 @@ $(function() {
             });
         });
 	
-
-
+// DEVILDEVELOPER DO IT
 
 

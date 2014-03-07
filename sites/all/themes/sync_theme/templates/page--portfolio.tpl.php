@@ -2,14 +2,14 @@
     <div class="flexslider clearfix">
         <ul class="slides">
             <li>
-                <img src="<?php print $img ;?>" />
+                <img src="<?php print '/sitio-drupal/sites/default/files/'.$node->field_imagen['und'][0]['filename'] ;?>" />
             </li>  
-        </ul>
-    </div>
+        </ul> 
+    </div> 
     <div class="project_content clearfix">
         <div class="three_fourth">
         	<h4 class="black mb">Overview</h4>
-            <p><?php print $contenido ;?></p>
+            <p><?php print $node->field_contenido['und'][0]['value'] ;?></p>
             <a class="btn-small" href="#">Launch website</a> 
 		</div>
         <div class="one_fourth last">
