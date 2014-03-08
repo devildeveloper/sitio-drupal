@@ -36,13 +36,15 @@
     </div><!--/Our Team-->
 </div><!--/About Us-->
 <!-- Separator1-->
+
+
 <?php print render($page['banner1']) ;?>        
 <!--/Separator1--> 
 <!-- Our Services-->
 <div id="ourservices">
     <!-- Container-->
     <div class="container clearfix">
-        <?php print render($page['ourservices']) ;?>
+        <?php print render($page['texto_servicios']) ;?>
         <?php print render($page['services']) ; ?>
     </div>
     <!--/Container-->        
