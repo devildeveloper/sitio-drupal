@@ -42,17 +42,14 @@
 <div id="ourservices">
     <!-- Container-->
     <div class="container clearfix">
-        <h1 class="black mb">Our Services</h1> 
-        <p class="big-paragraph">Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat 
-        a telus.</p>
-        <br><br><br><br>
+        <?php print render($page['ourservices']) ;?>
         <?php print render($page['services']) ; ?>
     </div>
     <!--/Container-->        
     <!-- Newsletter-->
     <div class="newsletter">
         <div class="container clearfix">
-            <h3 class="white newsletter">Our newsletter:</h3>
+            <h3 class="white newsletter">Suscribete:</h3>
             <form id="newsletter"  method="post">
                 <input type="text" onfocus="if(this.value == 'E-mail here') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail here'; }" value="E-mail here" class="newsletter-email">
                 <input type="text" onfocus="if(this.value == 'Your name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your name'; }" value="Your name" class="newsletter-name">
@@ -123,31 +120,24 @@
         <div class="container clearfix">
             <!-- Contact Details-->
             <div class="two_fourth">          
-                <h3 class="black mb">Contact Details</h3>
-                <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat a telus.
-                    <br><br>
-                    <span class="color">Keep in touch!</span>
+                <h3 class="black mb">Contactanos</h3>
+                <p>¿Te apasiona la tecnología y el mundo digital? 
+                    Escríbenos a ilovesync@sync.com.pe
                 </p>
                     
             </div>
             <!--/Contact Details-->  
             <!-- Contact New York-->
             <div class="one_fourth">
-                <h3 class="black mb">New York</h3>
-                <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">newyork@eleven.com</span></p>
+                <h3 class="black mb">Miraflores, Lima - Perú</h3>
+                <p>info@sync.com.pe
+                </p>
                 <br>
-                <p class="black"><strong>( 495 ) 663 287 547</strong></p>
+                <p class="black"><strong>941 377 609</strong></p>
             </div>
             <!--/Contact New York-->      
-            <!-- Contact Berlin-->
-            <div class="one_fourth last">
-                <h3 class="black mb">Berlin</h3>
-                <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">berlin@eleven.com</span></p>
-                <br>
-                <p class="black"><strong>( 495 ) 663 287 547</strong></p>
-            </div>
-            <!--/Contact Berlin-->
-        </div>
+
+        </div> 
         <!--/Container-->
     </div>
     <!-- Contact Header--> 

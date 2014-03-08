@@ -39,6 +39,7 @@ regions[content] = Content
 regions[footer] = Footer
 regions[bottom] = Bottom
 regions[portfolio_terms] = Terminos del Portfolio
+regions['ourservices'] = Texto Servicios
 
 regions['highlighted'] =Highlighted
 regions['sidebar_first'] = Sidebar First

@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "utf-8";
 /* -------------------------------------------------------------------------------
 
     0.  Reset & Clearfix
@@ -104,7 +104,7 @@
 	}
 	
 	.color {
-		color:#555;
+		color:#357863;
 	}
 	
 	.black {
@@ -320,11 +320,11 @@
 	}
 	
 	.ourteam {
-		background:#000;
+		background:#ebebeb;
 	}
 	
 	.newsletter {
-		background:#000;
+		background:#01AEF2;
 	}
 	
 	.projects-filters {
