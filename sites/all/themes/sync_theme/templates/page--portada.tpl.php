@@ -56,7 +56,7 @@
                 <input type="hidden" name="id" value="sync_contact">
                 <input type="text" onfocus="if(this.value == 'Your name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your name'; }" value="Nombres y Apellidos" class="newsletter-name">
                 <input type="text" onfocus="if(this.value == 'E-mail here') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail here'; }" value="Correo Electrónico" class="newsletter-email">
-                <button type="submit" class="newsletter-sent">Submit</button>
+                <button type="submit" class="newsletter-sent">Enviar</button>
             </form>
         </div>
     </div>
@@ -163,7 +163,7 @@
                 <div class="one_half last">
                     <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Comentarios">Mensaje</textarea>
                 </div>
-                <input type="submit" class="send_message" id="submit" value="Submit" />
+                <input type="submit" class="send_message" id="submit" value="Enviar" />
             </form>
         </div>
         <!--/Container-->
