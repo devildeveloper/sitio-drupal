@@ -52,9 +52,10 @@
     <div class="newsletter">
         <div class="container clearfix">
             <h3 class="white newsletter">Suscribete:</h3>
-            <form id="newsletter"  method="post">
-                <input type="text" onfocus="if(this.value == 'E-mail here') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail here'; }" value="E-mail here" class="newsletter-email">
-                <input type="text" onfocus="if(this.value == 'Your name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your name'; }" value="Your name" class="newsletter-name">
+            <form id="newsletter"  method="POST" action="http://forms.melodysoft.com">
+                <input type="hidden" name="id" value="sync_contact">
+                <input type="text" onfocus="if(this.value == 'Your name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your name'; }" value="Nombres y Apellidos" class="newsletter-name">
+                <input type="text" onfocus="if(this.value == 'E-mail here') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail here'; }" value="Correo Electrónico" class="newsletter-email">
                 <button type="submit" class="newsletter-sent">Submit</button>
             </form>
         </div>
@@ -150,17 +151,17 @@
     <div class="contact-form">
         <!-- Container-->
         <div class="container clearfix">
-            <h2 class="black mb">Send us a message</h2>
+            <h2 class="black mb">Envianos un mensaje</h2>
             <div id="message"></div>
-            <form method="post" action="http://forms.melodysoft.com" name="contactform" id="contactform">
+            <form method="POST" action="http://forms.melodysoft.com" name="contactform" id="contactform">
                 <input type="hidden" name="id" value="sync_contact">
                 <div class="one_half">
-                    <input required name="name" type="text" id="name" size="30"  placeholder="Name" >
-                    <input required name="email" type="text" id="email" size="30" placeholder="E-Mail" >
-                    <input required name="phone" type="text" id="phone" size="30" placeholder="Phone" >
+                    <input required name="name" type="text" id="name" size="30"  placeholder="Nombre" >
+                    <input required name="email" type="text" id="email" size="30" placeholder="Correo Electrónico" >
+                    <input required name="phone" type="text" id="phone" size="30" placeholder="Teléfono" >
                 </div>
                 <div class="one_half last">
-                    <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Comments">Message</textarea>
+                    <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Comentarios">Mensaje</textarea>
                 </div>
                 <input type="submit" class="send_message" id="submit" value="Submit" />
             </form>
