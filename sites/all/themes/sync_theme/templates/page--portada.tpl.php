@@ -28,7 +28,7 @@
     <div class="ourteam">
         <!-- Container-->
         <div class="container clearfix">
-            <h1 class="color mb">Equipo</h1>
+            <h1 class="white mb">Equipo</h1>
             <br><br>
             <?php print render($page['team']); ?>
         </div>

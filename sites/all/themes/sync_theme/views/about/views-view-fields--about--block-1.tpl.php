@@ -8,13 +8,13 @@
 <div class="one_third">
     <h3 class="black mb"><?php print $fields['field_primer_subt']->content ;?></h3>                          
     <div class="meter">
-        <div style="width:75%"><p class="white">Web Design ( 75% )</p></div>
+        <div style="width:75%"><p class="white">Diseño Web ( 75% )</p></div>
     </div>
     <div class="meter">
-        <div style="width:60%"><p class="white">Web Development ( 60% )</p></div>
+        <div style="width:60%"><p class="white">Desarrollo Web ( 60% )</p></div>
     </div>
     <div class="meter">
-            <div style="width:85%"><p class="white">Brand Identity ( 85% )</p></div>
+            <div style="width:85%"><p class="white">Identidad Corporativa ( 85% )</p></div>
     </div>
 </div>
 <div class="two_third last">
