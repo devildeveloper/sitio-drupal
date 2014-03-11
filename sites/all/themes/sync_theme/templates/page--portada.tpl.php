@@ -1,4 +1,3 @@
- Home Page-->
 <div id="index">    
     <a href="" id="arrow_left"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/arrow_left.png' ;?>" alt="Slide Left" /></a>
     <a href="" id="arrow_right"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/arrow_right.png' ;?>" alt="Slide Right" /></a>         
@@ -168,7 +167,7 @@
         </ul>
         <div class="footer-social"><a href="https://www.facebook.com/pages/SYNC/421993571268997?fref=ts" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_facebook.png' ;?>" alt=""></a></div>
         <div class="footer-social"><a href="https://twitter.com/SYNCperu" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_twitter.png';?>" alt=""></a></div>
-        <div class="footer-social"><a href="http://google.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_google.png' ;?>" alt=""></a></div>
+        <div class="footer-social"><a href="https://plus.google.com/u/1/105522821530046566654/posts" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_google.png' ;?>" alt=""></a></div>
         <div class="footer-social"><a href="http://www.linkedin.com/profile/guided?trk=registration&o=reg" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_linkedin.png';?>" alt=""></a></div>
         <div class="footer-social"><a href="http://dribble.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_dribble.png';?>" alt=""></a></div>
         <div class="footer-social"><a href="http://pinterest.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_pinterest.png';?>" alt=""></a></div>
