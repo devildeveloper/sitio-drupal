@@ -1,6 +1,6 @@
 <div class="project_page clearfix">        
     <div class="flexslider clearfix">
-        <ul class="slides">
+        <ul class="slides" style="margin:0;padding:0">
             <li>
                 <img src="<?php print 'sites/default/files/styles/portfolio-full/public/'.$node->field_imagen['und'][0]['filename'] ;?>" />
             </li>  
