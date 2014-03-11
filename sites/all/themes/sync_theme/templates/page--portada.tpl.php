@@ -90,22 +90,22 @@
     <div class="separator3-bg"></div>
     <div class="container clearfix">
         <div class="client">
-            <a href="http://www.linkedin.com/profile/guided?trk=registration&o=reg"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client1.png';?>" alt=""/></a>
+            <a href="http://www.linkedin.com/profile/guided?trk=registration&o=reg" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client1.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href=""><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client2.png';?>" alt=""/></a>
+            <a href="" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client2.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href="https://twitter.com/SYNCperu"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client3.png';?>" alt=""/></a>
+            <a href="https://twitter.com/SYNCperu" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client3.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href="Yahoo web"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client4.png';?>" alt=""/></a>
+            <a href="Yahoo web" target="_blank" ><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client4.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href="http://www.youtube.com/channel/UCg8C8bOPtlUBrLIQX1W60NA/"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client5.png';?>" alt=""/></a>
+            <a href="http://www.youtube.com/channel/UCg8C8bOPtlUBrLIQX1W60NA/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client5.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href="https://www.facebook.com/pages/SYNC/421993571268997?fref=ts"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client6.png';?>" alt=""/></a>
+            <a href="https://www.facebook.com/pages/SYNC/421993571268997?fref=ts" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client6.png';?>" alt=""/></a>
         </div>          
     </div>
 </div>
