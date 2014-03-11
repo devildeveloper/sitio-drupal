@@ -1,4 +1,4 @@
-<!-- Home Page-->
+ Home Page-->
 <div id="index">    
     <a href="" id="arrow_left"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/arrow_left.png' ;?>" alt="Slide Left" /></a>
     <a href="" id="arrow_right"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/arrow_right.png' ;?>" alt="Slide Right" /></a>         
@@ -91,22 +91,22 @@
     <div class="separator3-bg"></div>
     <div class="container clearfix">
         <div class="client">
-            <a href="likedinweb"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client1.png';?>" alt=""/></a>
+            <a href="http://www.linkedin.com/profile/guided?trk=registration&o=reg"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client1.png';?>" alt=""/></a>
         </div>        
         <div class="client">
             <a href=""><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client2.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href="http://twitter.com/Twitter web"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client3.png';?>" alt=""/></a>
+            <a href="https://twitter.com/SYNCperu"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client3.png';?>" alt=""/></a>
         </div>        
         <div class="client">
             <a href="Yahoo web"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client4.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href="http://youtube.com/"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client5.png';?>" alt=""/></a>
+            <a href="http://www.youtube.com/channel/UCg8C8bOPtlUBrLIQX1W60NA/"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client5.png';?>" alt=""/></a>
         </div>        
         <div class="client">
-            <a href="http://facebook.com/https://www.facebook.com/pages/Sync-MKT/459844787381562?fref=ts"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client6.png';?>" alt=""/></a>
+            <a href="https://www.facebook.com/pages/SYNC/421993571268997?fref=ts"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client6.png';?>" alt=""/></a>
         </div>          
     </div>
 </div>
@@ -118,10 +118,8 @@
 <!-- Contact-->
 <div id="contact">
     <!-- Contact Header-->
-    <div class="contact-header">
-    <!-- Container-->
-        <div class="container clearfix">
-            <!-- Contact Details-->
+<!--     <div class="contact-header">
+        <div class="container clearfix">           
             <div class="two_fourth">          
                 <h3 class="black mb">Contactanos</h3>
                 <p>¿Te apasiona la tecnología y el mundo digital? 
@@ -129,8 +127,6 @@
                 </p>
                     
             </div>
-            <!--/Contact Details-->  
-            <!-- Contact New York-->
             <div class="one_fourth">
                 <h3 class="black mb">Miraflores, Lima - Perú</h3>
                 <p>info@sync.com.pe
@@ -138,18 +134,11 @@
                 <br>
                 <p class="black"><strong>941 377 609</strong></p>
             </div>
-            <!--/Contact New York-->      
-
         </div> 
-        <!--/Container-->
-    </div>
-    <!-- Contact Header--> 
-    <!-- Map-->
-    <div id="map_canvas"></div>
-    <!--End Map-->
-    <!-- Contact Form-->
+    </div> -->
+    <!-- quitar el display none para mostrar el mapa -->
+    <div id="map_canvas" style="display:none;"></div>
     <div class="contact-form">
-        <!-- Container-->
         <div class="container clearfix">
             <h2 class="black mb">Envianos un mensaje</h2>
             <div id="message"></div>
@@ -166,31 +155,28 @@
                 <input type="submit" class="send_message" id="submit" value="Enviar" />
             </form>
         </div>
-        <!--/Container-->
     </div>
         <!--/Contact Form-->
 </div>
 <!--/Contact-->
 <!-- Footer-->
-<div class="footer">    
+ <div class="footer">    
     <div class="container clearfix">
         <ul class="contactus">
             <li><span class="mail">Email: info@sync.com.pe</span></li>
             <li><span class="phone">Telefono: 941-377-609</span></li>
         </ul>
-        <div class="footer-social"><a href="http://facebook.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_facebook.png' ;?>" alt=""></a></div>
-        <div class="footer-social"><a href="http://twitter.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_twitter.png';?>" alt=""></a></div>
+        <div class="footer-social"><a href="https://www.facebook.com/pages/SYNC/421993571268997?fref=ts" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_facebook.png' ;?>" alt=""></a></div>
+        <div class="footer-social"><a href="https://twitter.com/SYNCperu" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_twitter.png';?>" alt=""></a></div>
         <div class="footer-social"><a href="http://google.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_google.png' ;?>" alt=""></a></div>
-        <div class="footer-social"><a href="http://linkedin.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_linkedin.png';?>" alt=""></a></div>
+        <div class="footer-social"><a href="http://www.linkedin.com/profile/guided?trk=registration&o=reg" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_linkedin.png';?>" alt=""></a></div>
         <div class="footer-social"><a href="http://dribble.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_dribble.png';?>" alt=""></a></div>
         <div class="footer-social"><a href="http://pinterest.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_pinterest.png';?>" alt=""></a></div>
         <div class="footer-social"><a href="#" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_rss.png';?>" alt=""></a></div>
         <div class="copyright">        
-            <p>&copy; 2104 Sync. Derechos Reservados</p>        
+            <p>&copy; 2009-2014 SYNC Derechos Reservados</p>        
         </div>
     </div> 
     <?php print render($page['footer']); ?>   
 </div>
-<!--/Footer-->
 <?php print render($page['bottom']); ?>
-<!--/Footer-->
