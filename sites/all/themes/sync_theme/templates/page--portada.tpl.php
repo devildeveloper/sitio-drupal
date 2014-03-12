@@ -91,16 +91,10 @@
     <div class="container clearfix">
         <div class="client">
             <a href="http://www.linkedin.com/profile/guided?trk=registration&o=reg" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client1.png';?>" alt=""/></a>
-        </div>        
-        <div class="client">
-            <a href="" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client2.png';?>" alt=""/></a>
-        </div>        
+        </div>              
         <div class="client">
             <a href="https://twitter.com/SYNCperu" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client3.png';?>" alt=""/></a>
-        </div>        
-        <div class="client">
-            <a href="Yahoo web" target="_blank" ><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client4.png';?>" alt=""/></a>
-        </div>        
+        </div>               
         <div class="client">
             <a href="http://www.youtube.com/channel/UCg8C8bOPtlUBrLIQX1W60NA/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/client5.png';?>" alt=""/></a>
         </div>        
@@ -169,9 +163,6 @@
         <div class="footer-social"><a href="https://twitter.com/SYNCperu" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_twitter.png';?>" alt=""></a></div>
         <div class="footer-social"><a href="https://plus.google.com/u/1/105522821530046566654/posts" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_google.png' ;?>" alt=""></a></div>
         <div class="footer-social"><a href="http://www.linkedin.com/profile/guided?trk=registration&o=reg" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_linkedin.png';?>" alt=""></a></div>
-        <div class="footer-social"><a href="http://dribble.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_dribble.png';?>" alt=""></a></div>
-        <div class="footer-social"><a href="http://pinterest.com/" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_pinterest.png';?>" alt=""></a></div>
-        <div class="footer-social"><a href="#" target="_blank"><img src="<?php print base_path() . drupal_get_path('theme', 'sync_theme') .'/images/footer_rss.png';?>" alt=""></a></div>
         <div class="copyright">        
             <p>&copy; 2009-2014 SYNC Derechos Reservados</p>        
         </div>
