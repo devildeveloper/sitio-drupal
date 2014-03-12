@@ -11,10 +11,13 @@ function sync_theme_preprocess_page(&$variables, $hook) {
 }  
 function sync_theme_preprocess_html(&$vars) {
   $node = menu_get_object();
-
+  
   if ($node && $node->type=='portafolio') {
     $vars['theme_hook_suggestions'][] = 'page__portfolio';
     $vars['node']=$node;
+    $imagen = field_get_items('node', $vars['node'], 'field_imagen');
+    $imagen = image_style_url('portfolio-full', $imagen[0]['uri']);
+    $vars['imagen']=$imagen;
   }
 }
 function sync_theme() {

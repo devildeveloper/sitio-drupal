@@ -1,25 +1,24 @@
-<div class="project_page clearfix">        
+<div class="project_page clearfix">   
     <div class="flexslider clearfix">
         <ul class="slides" style="margin:0;padding:0">
             <li>
-                <img src="<?php print '/sites/default/files/styles/portfolio-full/public/'.$node->field_imagen['und'][0]['filename'] ;?>" />
+                <img src="<?php print $imagen ;?>" />
             </li>  
         </ul> 
     </div> 
     <div class="project_content clearfix">
         <div class="three_fourth">
-        	<h4 class="black mb">Overview</h4>
+        	<h4 class="black mb"><?php print $node->field_nombre_del_proyecto['und'][0]['value'];?></h4>
             <p><?php print $node->field_contenido['und'][0]['value'] ;?></p>
-            <a class="btn-small" href="#">Launch website</a> 
+            <a class="btn-small" href="<?php print $node->field_ruta['und'][0]['value'];?>">Ir al sitio del proyecto</a> 
 		</div>
+        <?php $lista=explode(',', $node->field_lista_de_trabajos['und'][0]['value']) ;?>
         <div class="one_fourth last">
-        	<h4 class="black mb">What we did</h4>
+        	<h4 class="black mb">Lo que hicimos :</h4>
             <ul class="categories">
-                <li><a href="#">eCommerce</a></li>
-                <li><a href="#">Flash Animation &amp; Ads</a></li>
-                <li><a href="#">TV Advertising</a></li>
-                <li><a href="#">Online Magazines</a></li>
-                <li><a href="#">Email marketing</a></li>                
+                <?php foreach ($lista as $key){ ?>
+                    <li><?php print $key;?></li>                
+                <?php } ?>              
             </ul>
 		</div>  
 	</div>        

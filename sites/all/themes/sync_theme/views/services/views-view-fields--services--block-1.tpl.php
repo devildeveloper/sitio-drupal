@@ -10,6 +10,5 @@
 	<p></p>
 	<p><?php print $fields['field_descripcion']->content ;?></p>
 		<p></p>
-	<a class="btn-small" href="#">View Details</a>
 	<br><br><br><br>
 </div>
